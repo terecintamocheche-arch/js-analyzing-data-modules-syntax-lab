@@ -14,7 +14,7 @@ function combineUsers(...arrays) {
 
   return {
     users: users,
-    date: new Date()
+    merge_date: merge_date
   };
 }
 
