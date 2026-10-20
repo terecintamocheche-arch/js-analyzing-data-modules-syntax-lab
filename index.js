@@ -12,3 +12,7 @@ function combineUsers(...arrays) {
     date: new Date()
   };
 }
+
+module.exports = {
+  ...(typeof combineUsers !== 'undefined' && { combineUsers })
+};
